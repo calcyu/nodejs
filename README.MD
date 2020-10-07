@@ -34,9 +34,12 @@
 ### 默认
 `default`
 
-
-
 ## 导入第三方的模块
+> 价格一个亿AI程序
+需求：
+  控制台的输入输出
+`npm install readline`
+
 
 ## Promise
 

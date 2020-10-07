@@ -10,9 +10,7 @@ console.log(age, gender);
 
 //导入default的值
 import w from './m1.mjs';
-
 console.log(w);
-
 
 //导入函数
 import {f,bar} from './m2.mjs';

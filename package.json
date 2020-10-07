@@ -1,0 +1,19 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "1. nodejs安装\r 2. 镜像配置 taobao\r 3. 创建一个项目，打印helloworld",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.11.5"
+  },
+  "dependencies": {
+    "jQuery": "^1.7.4",
+    "requirejs": "^2.3.6"
+  }
+}

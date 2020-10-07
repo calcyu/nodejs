@@ -12,6 +12,28 @@
 > 浏览器中采用的是 AMD规范 requirejs实现了规范
     `npm install requirejs`
 > Vue中采用ES6规范  webpack babel ES5
+  `import export default`
+
+## ES6导入导出
+`import exports default`
+### export导出
+> 可以导出变量、函数、类
+###  import导出
+> 可以导入变量、函数、类
+
+## 变量
+1. 声明时导出变量
+
+## nodejs运行es6 import export
+> js文件扩展名使用 .mjs
+`node --experimental-modules .\1modules\es6\main.mjs`
+
+### 别名
+`as`
+
+### 默认
+`default`
+
 
 
 ## 导入第三方的模块

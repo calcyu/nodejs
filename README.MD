@@ -40,8 +40,13 @@
   控制台的输入输出
 `npm install readline`
 
-
 ## Promise
+
+## async await
+
+
+
+![1602056369337](README.assets/1602056369337.png)
 
 
 ## async await

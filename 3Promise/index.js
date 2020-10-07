@@ -20,13 +20,26 @@ function quiz(msg){
         })
     })
 }
-quiz('可以看下你的手机吗？').then((answer)=>{
-    if(answer=='可以'){
-        quiz('走进你的心里可好！').then((answer)=>{
-            console.log(answer);
-        })
+// quiz('可以看下你的手机吗？').then((answer)=>{
+//     if(answer=='可以'){
+//         quiz('走进你的心里可好！').then((answer)=>{
+//             console.log(answer);
+//         })
+//     }
+// })
+//不嵌套的写法
+async function chat(){
+    const msg1 = await quiz('可以看下你的手机吗');
+    if(msg1=='可以'){
+        const msg2 = await quiz('走进你的心里');
+        if(msg2=='死路一条'){
+            console.log('gameover');
+        }
     }
-})
+}
+
+chat();
+
 
 
 

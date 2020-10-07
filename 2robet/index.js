@@ -20,4 +20,4 @@ function printAndInput(msg){
         printAndInput(answer);
     })
 }
-printAndInput('程序已启动');
+printAndInput('程序已启动\n');

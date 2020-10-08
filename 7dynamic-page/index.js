@@ -22,6 +22,11 @@ const server = http.createServer(
     resp.end(`
     <html>
         <body>
+        <form action="/" 
+    method="get">
+        <input type="text" name="wd">
+        <button>搜索</button>
+    </form>
             <h2>你好 nodejs!!</h2>
             <h3>你输入的关键字：${value}</h3>
             <div>${req.url}</div>

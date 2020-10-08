@@ -66,6 +66,12 @@ npm install download
 
 
 ## JSON数据接口
+> 采用json格式来转递信息
+
+### 发送异步请求
+1. jquery ajax getJSON 
+`npm install jQuery`
+2. axios Vue
 
 ## 天气预报
 

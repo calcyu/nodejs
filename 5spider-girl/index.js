@@ -12,7 +12,7 @@ const cheerio = require('cheerio');
 const download = require('download');
 const path = require('path');
 
-const url = 'https://image.baidu.com/search/index?tn=baiduimage&ipn=r&ct=201326592&cl=2&lm=-1&st=-1&fm=result&fr=&sf=1&fmq=1597295854493_R&pv=&ic=&nc=1&z=&hd=&latest=&copyright=&se=1&showtab=0&fb=0&width=&height=&face=0&istype=2&ie=utf-8&ctd=1597295854495%5E00_1519X343&sid=&word=%E7%BE%8E%E5%A5%B3';
+const url = 'https://image.baidu.com/search/index?tn=baiduimage&ipn=r&ct=201326592&cl=2&lm=-1&st=-1&fm=result&fr=&sf=1&fmq=1597295854493_R&pv=&ic=&nc=1&z=&hd=&latest=&copyright=&se=1&showtab=0&fb=0&width=&height=&face=0&istype=2&ie=utf-8&ctd=1597295854495%5E00_1519X343&sid=&word=%E5%B8%85%E5%93%A5';
 
 //发送get请求 
 https.get(url,function(response){

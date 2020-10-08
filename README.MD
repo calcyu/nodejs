@@ -51,7 +51,12 @@
 ## 文件读写
 
 ## 网络爬虫
-
+> 爬取百度图片
+### 依赖包
+```
+npm install cheerio
+npm install download
+```
 
 ## web服务器
 
